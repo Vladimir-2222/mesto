@@ -1,0 +1,23 @@
+.proile__add-batton {
+    background: url(../../../images/Vector\ add__batton.svg) no-repeat center;
+    border: 2px solid #fff;
+    width: 146px;
+    height: 46px;
+  }
+ 
+  @media screen and (max-width: 620px){
+    .proile__add-batton {
+       width: calc(100% - 4px);
+       height: 46px;
+    }
+ }
+ @media screen and (max-width: 518px){
+    .proile__add-batton {
+       margin-top: 24px;
+    }
+ }
+ 
+ .proile__add-batton:hover {
+    opacity: 70%;
+    transition: all 0.2s;
+ }

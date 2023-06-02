@@ -1,6 +1,5 @@
 .page {
     font-family: 'Inter', sans-serif;
-    min-width: 320px;
     margin: 0 auto;
     background-color: #000;
     -moz-osx-font-smoothing: grayscale;
@@ -8,5 +7,8 @@
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
-     text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }

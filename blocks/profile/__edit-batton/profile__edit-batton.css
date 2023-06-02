@@ -1,0 +1,20 @@
+.profile__edit-batton {
+    background: url(../../../images/Vector.svg) no-repeat center;
+    max-width: 24px;
+    height: 24px;
+    border: 1px solid #fff;
+    align-self: end;
+    margin-bottom: 6px;
+ }
+
+ @media screen and (max-width: 772px){
+   .profile__edit-batton {
+      width: 16px;
+      height: 16px;
+   }
+}
+
+.profile__edit-batton:hover {
+   opacity: 70%;
+   transition: all 0.2s;
+}

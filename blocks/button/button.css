@@ -1,0 +1,25 @@
+.button {
+    height: 50px;
+    margin-top: 48px;
+    padding: 0;
+    border: none;
+    background-color: #000;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 122%;
+    text-align: center;
+    color: #fff;
+    border-radius: 2px;
+ }
+
+ @media screen and (max-width: 518px){
+   .button {
+      font-size: 14px;
+      line-height: 17px;
+      white-space: nowrap;
+      margin-top: 45px;
+      height: 46px;
+   }
+}

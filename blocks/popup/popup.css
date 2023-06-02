@@ -1,0 +1,23 @@
+.popup {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    gap: 10px;
+  }
+  
+  @media screen and (max-width: 518px){
+    .popup {
+       gap: 16px;
+    }
+ }
+
+ .popup_is-opened {
+    display: flex;
+  }

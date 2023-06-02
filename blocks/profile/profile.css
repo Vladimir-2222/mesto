@@ -1,0 +1,39 @@
+.profile {
+    margin: 0 auto;
+    min-height: 120px;
+    max-width: 880px; 
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: 120px 336px 1fr;
+    color: #fff;
+    gap: 30px;
+    align-items: center;
+    justify-items: end;
+    width: calc(100% - 38px);
+ }
+
+ @media screen and (max-width: 772px){
+   .profile {
+      grid-template-columns: 120px 300px 1fr;
+      margin: 0 19px 0;
+      padding-top: 42px;
+      justify-items: end;
+      gap: 10px;
+  }
+}
+
+@media screen and (max-width: 518px){
+   .profile {
+      grid-template-columns: 1fr;
+      margin: 0 19px 0;
+      justify-items: center;
+  }
+}
+
+ @media screen and (max-width: 330px){
+   .profile {
+      grid-template-columns: 282px;
+      margin: 0 19px 0;
+      justify-items: center;
+  }
+}

@@ -1,0 +1,19 @@
+.footer__author {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 115%;
+    color: #545454;
+    margin: 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+ }
+ 
+ @media screen and (max-width: 772px){
+    .footer__author {
+       font-size: 14px;
+       line-height: 121%;
+    }
+ }
+ 

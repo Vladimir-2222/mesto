@@ -1,0 +1,19 @@
+.profile__subtitile {
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 122%;
+    max-width: 336px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+ 
+  @media screen and (max-width: 772px){
+    .profile__subtitile {
+       font-size: 14px;
+       line-height: 121%;
+       text-align: center;
+   }
+ }
