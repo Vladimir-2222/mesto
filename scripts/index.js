@@ -8,7 +8,6 @@ const aboutInputEl = document.querySelector('#about-input');//занятие
 const editFormEl = document.querySelector('#edit-form');//форма
 
 
-
 profileEditBattonEl.addEventListener('click', function () {
   openPopup(PopupEl);
 });
