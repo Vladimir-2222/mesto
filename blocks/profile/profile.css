@@ -1,7 +1,7 @@
 .profile {
     margin: 0 auto;
     min-height: 120px;
-    max-width: 880px; 
+    max-width: 880px;
     padding-top: 40px;
     display: grid;
     grid-template-columns: 120px 336px 1fr;
