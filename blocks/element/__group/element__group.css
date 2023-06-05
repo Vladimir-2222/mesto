@@ -4,6 +4,7 @@
     height: 19px;
     margin-right: 20px;
     margin-bottom: 2px;
+    cursor: pointer;
  }
  
  .element__group:hover {
@@ -14,4 +15,5 @@
  .element__group:active {
     background: url(../../../images/Union_black_heart.svg) no-repeat center;
     transition: all 0.2s; 
+    opacity: 100%;
  }

@@ -1,6 +1,5 @@
 .profile {
     margin: 0 auto;
-    min-height: 120px;
     max-width: 880px;
     padding-top: 40px;
     display: grid;
@@ -25,7 +24,6 @@
 @media screen and (max-width: 518px){
    .profile {
       grid-template-columns: 1fr;
-      margin: 0 19px 0;
       justify-items: center;
   }
 }
@@ -33,7 +31,5 @@
  @media screen and (max-width: 330px){
    .profile {
       grid-template-columns: 282px;
-      margin: 0 19px 0;
-      justify-items: center;
   }
 }

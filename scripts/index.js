@@ -1,6 +1,6 @@
 const profileEditBattonEl = document.querySelector('.profile__edit-batton');//кнопка открывания 
 const closePopupButtonEl = document.querySelector('.popup__close-button');//кнопка закрытия
-const PopupEl = document.querySelector('.popup');//сам popup
+const popupEl = document.querySelector('.popup');//сам popup
 const profileTitleEl = document.querySelector('.profile__title');//name2
 const nameInputEl = document.querySelector('#name-input');//имя\
 const profileFormEl = document.querySelector('.profile__subtitile');//занятие2
@@ -9,15 +9,16 @@ const editFormEl = document.querySelector('#edit-form');//форма
 
 
 profileEditBattonEl.addEventListener('click', function () {
-  openPopup(PopupEl);
+  openPopup(popupEl);
+  nameInputEl.value = profileTitleEl.textContent;
+  aboutInputEl.value = profileFormEl.textContent;
 });
 
 closePopupButtonEl.addEventListener('click', function () {
-  closePopup(PopupEl);
+  closePopup(popupEl);
 });
 
-nameInputEl.value = profileTitleEl.textContent;
-aboutInputEl.value = profileFormEl.textContent;
+
 
 editFormEl.addEventListener('submit', function (event) {
   event.preventDefault();
@@ -25,7 +26,7 @@ editFormEl.addEventListener('submit', function (event) {
   profileTitleEl.textContent = nameInputEl.value;
   profileFormEl.textContent = aboutInputEl.value;
 
-  closePopup(PopupEl);
+  closePopup(popupEl);
 });
 
 function openPopup(popupEl) {

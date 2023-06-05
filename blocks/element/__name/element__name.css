@@ -1,5 +1,5 @@
 .element__name {
-    min-height: 75px;
+    padding-top: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
