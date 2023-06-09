@@ -28,7 +28,7 @@
               <img src="./images/image_Vyatskie.jpg" alt="церковь" class="element__image">
               <div class="element__name">
                 <h2 class="element__title">Вятские Поляны</h2>
-                <button class="element__group" type="button"></button>
+                <button class="element__group group_active" type="button"></button>
               </div>
             </article>
             <article class="element">
@@ -73,13 +73,13 @@
         </footer>
     </div>
     <section class="popup">
-      <button id="close-popup-button" class="popup__close-button" type="button"></button>
         <div class="popup__content">
+          <button id="close-popup-button" class="popup_close-button" type="button"></button>
           <h2 class="popup__title">Редактировать профиль</h2>
           <form id="edit-form" name="form" class="popup__form">
             <input id="name-input" name="name" class="popup__input" type="text" placeholder="Имя">
             <input id="about-input" name="about" class="popup__input" type="text" placeholder="О Себе">
-            <button type="submit" class="button">Сохранить</button>
+            <button type="submit" class="popap__button-save">Сохранить</button>
           </form>
         </div>
     </section>

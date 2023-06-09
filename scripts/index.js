@@ -1,5 +1,5 @@
 const profileEditBattonEl = document.querySelector('.profile__edit-batton');//кнопка открывания 
-const closePopupButtonEl = document.querySelector('.popup__close-button');//кнопка закрытия
+const closePopupButtonEl = document.querySelector('.popup_close-button');//кнопка закрытия
 const popupEl = document.querySelector('.popup');//сам popup
 const profileTitleEl = document.querySelector('.profile__title');//name2
 const nameInputEl = document.querySelector('#name-input');//имя\

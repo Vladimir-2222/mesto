@@ -1,4 +1,4 @@
-.popup__close-button {
+.popup_close-button {
     width: 32px;
     height: 32px;
     background: transparent url(../../../images/сlose-batton-ikon.svg) center no-repeat;
@@ -6,18 +6,21 @@
     border: 0;
     padding: 0;
     cursor: pointer;
-    margin-left: 478px;
+    position: absolute;
+    right: -39px;
+    top: -40px;
   }
   
   @media screen and (max-width: 518px){
-    .popup__close-button {
+    .popup_close-button {
        width: 20px;
        height: 20px;
        background-size: 20px 20px;
-       margin-left: 259px;
+       right: 1px;
+       top: -37px;
     }
  }
  
-  .popup__close-button:hover {
+  .popup_close-button:hover {
     opacity: 0.6;
   }
