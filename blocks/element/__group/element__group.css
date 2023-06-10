@@ -1,5 +1,5 @@
 .element__group {
-    background: url(../../../images/Vector_heart.svg)no-repeat center;
+    background: url(../../../images/Vector_heart.svg) no-repeat center;
     width: 22px;
     height: 19px;
     border: none;
@@ -12,9 +12,3 @@
     opacity: 70%;
     transition: all 0.2s;
  }
- 
- .element__group:active {
-   background: url(../../../images/Union_black_heart.svg) no-repeat center;
-   transition: all 0.2s;
-   opacity: 100%;
-}

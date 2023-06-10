@@ -1,0 +1,5 @@
+.element__group_active:focus {
+    background: url(../../../../images/Union_black_heart.svg) no-repeat center;
+    transition: all 0.2s;
+    opacity: 100%;
+ }

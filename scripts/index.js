@@ -3,7 +3,7 @@ const closePopupButtonEl = document.querySelector('.popup__close-button');//кн
 const popupEl = document.querySelector('.popup');//сам popup
 const profileTitleEl = document.querySelector('.profile__title');//name2
 const nameInputEl = document.querySelector('#name-input');//имя\
-const profileFormEl = document.querySelector('.profile__subtitile');//занятие2
+const profileFormEl = document.querySelector('.profile__subtitle');//занятие2
 const aboutInputEl = document.querySelector('#about-input');//занятие
 const editFormEl = document.querySelector('#edit-form');//форма
 
