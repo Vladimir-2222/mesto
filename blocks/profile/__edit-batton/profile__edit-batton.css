@@ -1,6 +1,6 @@
 .profile__edit-batton {
     background: url(../../../images/Vector.svg) no-repeat center;
-    max-width: 24px;
+    width: 24px;
     height: 24px;
     border: 1px solid #fff;
     align-self: end;
@@ -12,7 +12,6 @@
    .profile__edit-batton {
       width: 18px;
       height: 18px;
-      margin-bottom: 7px;
       background-size: 7.5px;
    }
 }

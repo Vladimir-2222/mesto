@@ -7,15 +7,19 @@
     gap: 9px 2px;
     justify-self: stretch;
     padding-left: 5px;
+    justify-items: start;
 }
 
 @media screen and (max-width: 772px){
   .profile__info {
     grid-template-columns: 193px 18px;
-     justify-items: start;
      gap: 6px 7px;
-     justify-self: center;
-     justify-items: center;
      padding-left: 26px;
+  }
+}
+
+@media screen and (max-width: 705px){
+  .profile__info {
+     justify-items: center;
   }
 }
